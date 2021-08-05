@@ -1,0 +1,202 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#FFFBF0;
+    width: 100%;
+    height: 715px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav-img img{
+    width: 292px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 135px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-link{
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 58px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-details{
+    margin-left: 127px;
+    margin-top: 50px;
+}
+
+.banner-title{
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.banner-title span{
+    color: #363958;;
+}
+
+.banner-img{
+    margin-right: 185px;
+}
+
+.banner-img img{
+    width: 549px;
+    height: 559px;
+}
+
+.banner-para{
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-right: 242px;
+    color: #3E3E3E;
+    margin-bottom: 44px;
+}
+
+.buy-now{
+    padding: 18px 34px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFBF0;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 48px;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 135px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.jacket-types{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin: 0px 135px;
+}
+
+.jackets{
+    box-shadow: 1px 2px 10px #dadadd;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.jacket-img img{
+    width: 100%;
+    height: 320px;;
+    background-color: #d3d3d33a;
+    border-radius: 10px;    
+}
+
+.jacket-img.man img{
+    width: 100%;
+    height: 350px; 
+}
+
+.jacket-title{
+    font-size: 24px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jacket-details{
+    text-align: justify;
+}
+
+.jackets p{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prices .price{
+    font-size: 36px;
+    color: #FABE4C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.footer-part{
+    margin: 130px 135px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.footer-details{
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 10px #dadadd;
+    padding: 0px 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.details-img{
+    margin-right: 36px;
+}
+
+.details-img img{
+    width: 78px;
+    height: 82px;
+}
+
+.img-details h3{
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-details p{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.half-part-img{
+    margin-top: 39px;
+}
+
+.half-part-img img{
+    width: 600px;
+    height: 355px;
+}
